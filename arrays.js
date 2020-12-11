@@ -22,25 +22,20 @@ function destructivelyAddElementToEndOfArray(array, element) {
 //   return array[index]
 // }
 
-function destructivelyRemoveElementToBeginningOfArray(array) {
-  array.unshift;
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift();
   return array;
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1)
-  return array;
+  return array.slice(1);
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.pop;
+  array.pop();
   return array;
 }
 
 function removeElementFromEndOfArray(array) {
-  array.slice(0, array.length - 1);
-  return array;
+  return array.slice(0, array.length - 1);
 }
-}
-}
-
