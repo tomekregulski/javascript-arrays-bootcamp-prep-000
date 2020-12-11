@@ -1,5 +1,9 @@
 var chocolateBars = ["snicker", "hundered grand", "kitkat", "skittles"]
 
-ddElementToBeginningOfArray
+addElementToBeginningOfArray(array, element)
 
-destructivelyAddElementToBeggingOfArray
+destructivelyAddElementToBeginningOfArray(array, element)
+
+addElementToBeginningOfArray(array, element)
+
+destructivelyAddElementToBeginningOfArray(array, element)
