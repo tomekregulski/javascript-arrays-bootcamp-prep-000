@@ -1,9 +1,10 @@
 var chocolateBars = ["snicker", "hundered grand", "kitkat", "skittles"]
 
 addElementToBeginningOfArray(array, element)
+  
 
 destructivelyAddElementToBeginningOfArray(array, element)
 
-addElementToBeginningOfArray(array, element)
+addElementToEndOfArray(array, element)
 
-destructivelyAddElementToBeginningOfArray(array, element)
+destructivelyAddElementToEndOfArray(array, element)
